@@ -283,7 +283,7 @@ a.navbar-brand {
   margin: auto;
   padding: 140px 120px;
   border-radius: 20px;
-  width: 100%;
+  width: 80%;
 }
 .all-payment {
   display: flex;
@@ -1266,5 +1266,90 @@ button.button-event {
   }
   .border-right {
     display: none;
+  }
+  /* Profile */
+  .detail-profile-padding {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+
+  .own-profile {
+    display: flex;
+    gap: 40px;
+  }
+
+  .change-picture,
+  .text-picture {
+    display: none;
+  }
+
+  .detail-profile {
+    width: 80%;
+  }
+
+  .detail-profile-right-padding {
+    padding: 50px;
+  }
+
+  .detail-profile-padding {
+    display: flex;
+    justify-content: center;
+  }
+
+  .personal-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .email-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .phone-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .gender-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .gender-profile-male {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  .profession-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .profession-profile-name p {
+    display: flex;
+    text-align: start;
+  }
+
+  .nationality-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .right {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
