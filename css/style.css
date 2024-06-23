@@ -1163,3 +1163,20 @@ button.button-event {
   text-align: start;
   gap: 20px;
 }
+
+/* Media Querie */
+/* Mobile Phone */
+@media (max-width: 576px) {
+  html {
+    font-size: 75%;
+  }
+
+  /* USER AUTHENTICATION */
+  .left-table {
+    display: none;
+  }
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+  }
+}
