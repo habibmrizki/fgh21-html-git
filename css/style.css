@@ -1179,4 +1179,21 @@ button.button-event {
     display: flex;
     align-items: center;
   }
+  /* NAVBAR */
+  .button-hamburger-menu {
+    display: inline-block;
+  }
+
+  .button-hamburger-menu2 {
+    display: inline-block;
+  }
+
+  .container-fluid {
+    display: none;
+  }
+  .navbar-nav,
+  .button {
+    display: flex;
+    flex-direction: column;
+  }
 }
