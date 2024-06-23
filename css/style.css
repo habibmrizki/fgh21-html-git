@@ -1258,4 +1258,10 @@ button.button-event {
     display: flex;
     flex-wrap: wrap;
   }
+
+  /* payment */
+  .all-payment {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
