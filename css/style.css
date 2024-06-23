@@ -1252,4 +1252,10 @@ button.button-event {
     flex-direction: column;
     gap: 50px;
   }
+
+  /* Event */
+  .content-event {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
