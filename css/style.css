@@ -283,7 +283,7 @@ a.navbar-brand {
   margin: auto;
   padding: 140px 120px;
   border-radius: 20px;
-  width: 80%;
+  width: 100%;
 }
 .all-payment {
   display: flex;
@@ -1263,5 +1263,8 @@ button.button-event {
   .all-payment {
     display: flex;
     flex-wrap: wrap;
+  }
+  .border-right {
+    display: none;
   }
 }
