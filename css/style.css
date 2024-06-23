@@ -1196,4 +1196,60 @@ button.button-event {
     display: flex;
     flex-direction: column;
   }
+  /* FOOTER */
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  button.button {
+    text-align: center;
+  }
+
+  .footer {
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+  }
+  .footer1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* HOME */
+  .bg-sponsor {
+    height: 650px;
+  }
+
+  .bg-sponsor-img1 img {
+    padding-top: 300px;
+  }
+
+  .bg-sponsor-img3 img {
+    padding-left: 300px;
+  }
+
+  .logo-sponsor {
+    display: none;
+  }
+
+  .logo-sponsor2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .clone1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .clone2 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
 }
