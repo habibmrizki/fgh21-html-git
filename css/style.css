@@ -1179,6 +1179,13 @@ button.button-event {
     display: flex;
     align-items: center;
   }
+
+  .input-wrapper .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   /* NAVBAR */
   .button-hamburger-menu {
     display: inline-block;
