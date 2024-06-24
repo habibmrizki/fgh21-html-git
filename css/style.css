@@ -1275,6 +1275,11 @@ button.button-event {
     display: none;
   }
   /* Profile */
+
+  .profile-name {
+    display: none;
+  }
+
   .detail-profile-padding {
     display: flex;
     flex-wrap: wrap-reverse;
