@@ -896,6 +896,114 @@ button.button-event {
   display: flex;
   justify-content: center;
 }
+
+/* CATEGORY */
+.parent-category {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.child-category {
+  width: 300px;
+  height: 350px;
+  background-color: #ff8900;
+  display: flex;
+  flex-direction: column;
+  border-radius: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.child-category img {
+  width: 100%;
+  height: 50%;
+}
+
+.content-avatar {
+  width: 100%;
+  height: 50%;
+  background-color: #3366ff;
+}
+
+.pic-avatar {
+  display: flex;
+  margin-left: 35px;
+  margin-top: -15px;
+  margin-bottom: 35px;
+}
+
+.pic-avatar div {
+  position: relative;
+  width: 28px;
+  height: 29px;
+  border-radius: 50%;
+  margin-left: -10px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 29px;
+  box-sizing: border-box;
+}
+
+.avatar1 {
+  background-image: url(../img/avatar1.png);
+  background-size: cover;
+  border: 1px solid white;
+}
+.avatar2 {
+  background-image: url(../img/avatar2.png);
+  background-size: cover;
+  border: 1px solid white;
+}
+
+.avatar3 {
+  background-image: url(../img/avatar3.png);
+  background-size: cover;
+  border: 1px solid white;
+}
+
+.avatar4 {
+  background-image: url(../img/avatar4.png);
+  background-size: cover;
+}
+
+.avatar4 .top-layer {
+  color: #fff;
+  display: block;
+  position: absolute;
+  background: linear-gradient(0deg, #ff880075, #ff880075);
+  width: 28px;
+  height: 29px;
+  border-radius: 50%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+  margin-left: 25px;
+}
+
+.day {
+  color: #fff;
+  font-size: 14px;
+  gap: 20px;
+}
+
+.title {
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
 /* city */
 .ellipse1 {
   background-color: #3366ff;
