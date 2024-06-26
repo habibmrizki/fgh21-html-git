@@ -788,30 +788,120 @@ button.button-event {
   justify-content: center;
 }
 
-.event-box {
+.content-event-film {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  gap: 30px;
+  margin: 50px 60px;
   overflow-x: scroll;
-  margin-top: 30px;
 }
 
-.button-event-box {
+.list-event:nth-child(odd) {
+  background-image: url(../img/picture-event1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.list-event:nth-child(even) {
+  background-image: url(../img/picture-event2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list-event {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  background-size: contain;
+  width: 260px;
+  height: 376px;
+  border-radius: 20px;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.display-event {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 260px;
+  height: 376px;
+  border-radius: 20px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 8%, #292a30 100%);
+}
+
+.information-event {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 25px;
+}
+
+.day {
+  font-size: 14px;
+  gap: 20px;
+}
+
+.title {
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.pic-avatar-event {
+  display: flex;
+  margin: 20px 0 40px 35px;
+}
+
+.pic-avatar-event div {
+  position: relative;
+  width: 28px;
+  height: 29px;
+  border-radius: 50%;
+  margin-left: -10px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 28px;
+  box-sizing: border-box;
+}
+
+.avatar1-event {
+  background-image: url(../img/avatar1.png);
+  background-size: cover;
+  border: 1px solid white;
+}
+.avatar2-event {
+  background-image: url(../img/avatar2.png);
+  background-size: cover;
+  border: 1px solid white;
+}
+
+.avatar3-event {
+  background-image: url(../img/avatar3.png);
+  background-size: cover;
+  border: 1px solid white;
+}
+
+.avatar4-event {
+  background-image: url(../img/avatar4.png);
+  background-size: cover;
+}
+
+.top-layer-event {
+  display: block;
+  position: absolute;
+  background: linear-gradient(0deg, #f79c3475, #ff880075);
+  width: 28px;
+  height: 29px;
+  border-radius: 50%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.button-event {
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  margin-top: 30px;
-}
-
-.button-event-box-left,
-.button-event-box-right {
-  background-color: #f4f7ff;
-}
-
-.button-event-box-left {
-  background-color: transparent;
 }
 
 .button-hamburger-menu {
