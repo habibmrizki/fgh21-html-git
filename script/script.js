@@ -24,29 +24,34 @@ const listEvent = document.getElementById("list-event");
 
 const events = [
   {
-    title: "Sights & Sounds",
-    date: "Wed, 15 Nov, 4:00 PM",
-    image: "img/picture-event1.png",
+    title: "Movie Vector",
+    date: "Fri, 12 Jan, 3:00 PM",
+    image: "img/picture-event2.png",
   },
 
   {
-    title: "Sights & Sounds Sounds Exhibition",
-    date: "Wed, 15 Nov, 4:00 PM",
+    title: "Let's Play Skater",
+    date: "Sun, 1 Aug, 3:00 PM",
     image: "img/picture-event3.jpg",
   },
   {
-    title: "Sights & Sounds Sounds Exhibition",
-    date: "Wed, 15 Nov, 4:00 PM",
+    title: "Macth MU vs Arsenal",
+    date: "Mon, 15 Nov, 4:00 PM",
     image: "img/picture-event4.jpg",
   },
   {
-    title: "Sights & Sounds Sounds Exhibition",
-    date: "Wed, 15 Nov, 4:00 PM",
+    title: "Meeting Sribu",
+    date: "Wed, 26Ap, 9:00 AM",
     image: "img/picture-event6.jpg",
   },
   {
-    title: "Sights & Sounds Sounds Exhibition",
-    date: "Wed, 15 Nov, 4:00 PM",
+    title: "Class Cooking",
+    date: "Sat, 20 March, 8:00 AM",
+    image: "img/picture-event5.jpg",
+  },
+  {
+    title: "Party Color Fun",
+    date: "Sat, 3 Oct, 8:00 AM",
     image: "img/picture-event7.jpg",
   },
 ];
