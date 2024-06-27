@@ -788,114 +788,94 @@ button.button-event {
   justify-content: center;
 }
 
-.content-event-film {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-  margin: 50px 60px;
-  overflow-x: scroll;
-}
-
-.list-event:nth-child(odd) {
-  background-image: url(../img/picture-event1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.list-event:nth-child(even) {
-  background-image: url(../img/picture-event2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .list-event {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-size: contain;
+  gap: 30px;
+  overflow-x: scroll;
+  margin: 50px 60px;
+}
+
+.content-event-index {
   width: 260px;
   height: 376px;
-  border-radius: 20px;
-  color: #fff;
+  background-color: #ff8900;
+  border-radius: 40px;
+  overflow: hidden;
+  position: relative;
   flex-shrink: 0;
 }
 
-.display-event {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  width: 260px;
-  height: 376px;
-  border-radius: 20px;
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 8%, #292a30 100%);
+.content-event-index img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.information-event {
+.information-event-index {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-left: 25px;
+  justify-content: flex-end;
+  padding: 25px;
+  box-sizing: border-box;
+  background-image: linear-gradient(to bottom, transparent, black);
+  color: #ffffff;
 }
 
-.day {
+.information-event-index div:first-child {
   font-size: 14px;
-  gap: 20px;
 }
 
-.title {
+.information-event-index div:nth-child(2) {
   font-size: 22px;
-  letter-spacing: 2px;
   font-weight: 600;
 }
 
-.pic-avatar-event {
+.date-event-index {
   display: flex;
-  margin: 20px 0 40px 35px;
+  flex-direction: column;
+  gap: 5px;
 }
 
-.pic-avatar-event div {
-  position: relative;
+.attende {
+  display: flex;
+  margin-top: 20px;
+}
+
+.attende div {
   width: 28px;
-  height: 29px;
-  border-radius: 50%;
+  height: 28px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid white;
+}
+
+.attende div:not(:first-child) {
   margin-left: -10px;
-  font-size: 10px;
-  text-align: center;
-  line-height: 28px;
-  box-sizing: border-box;
 }
 
-.avatar1-event {
-  background-image: url(../img/avatar1.png);
-  background-size: cover;
-  border: 1px solid white;
-}
-.avatar2-event {
-  background-image: url(../img/avatar2.png);
-  background-size: cover;
-  border: 1px solid white;
+.attende div:last-child {
+  position: relative;
 }
 
-.avatar3-event {
-  background-image: url(../img/avatar3.png);
-  background-size: cover;
-  border: 1px solid white;
-}
-
-.avatar4-event {
-  background-image: url(../img/avatar4.png);
-  background-size: cover;
-}
-
-.top-layer-event {
-  display: block;
+.attende div:last-child::after {
+  content: "";
   position: absolute;
-  background: linear-gradient(0deg, #f79c3475, #ff880075);
-  width: 28px;
-  height: 29px;
-  border-radius: 50%;
-  text-align: center;
-  letter-spacing: 0.5px;
-  font-weight: 500;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff880063;
+}
+
+.attende div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .button-event {

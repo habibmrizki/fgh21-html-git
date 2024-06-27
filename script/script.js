@@ -18,4 +18,3 @@ menuButton.onclick = () => {
     button.style.display = "none";
   }
 };
-
