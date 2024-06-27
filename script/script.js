@@ -25,7 +25,7 @@ const listEvent = document.getElementById("list-event");
 const events = [
   {
     title: "Movie Vector",
-    date: "Fri, 12 Jan, 3:00 PM",
+    date: "Fri, 12 Jan, 7:00 PM",
     image: "img/picture-event2.png",
   },
 
@@ -36,7 +36,7 @@ const events = [
   },
   {
     title: "Macth MU vs Arsenal",
-    date: "Mon, 15 Nov, 4:00 PM",
+    date: "Mon, 15 Nov, 6:00 PM",
     image: "img/picture-event4.jpg",
   },
   {
@@ -46,7 +46,7 @@ const events = [
   },
   {
     title: "Class Cooking",
-    date: "Sat, 20 March, 8:00 AM",
+    date: "Sat, 20 March, 12:00 PM",
     image: "img/picture-event5.jpg",
   },
   {
