@@ -108,3 +108,8 @@ events.forEach((detail) => {
 
   listEvent.appendChild(contentEventIndex);
 });
+
+const btnToLogin = document.getElementById("to-login");
+btnToLogin.onclick = () => {
+  window.location = "/user-authentication.html";
+};
