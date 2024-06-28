@@ -1373,9 +1373,6 @@ button.button-event {
     display: inline-block;
   }
 
-  .container-fluid {
-    display: none;
-  }
   .navbar-nav,
   .button {
     display: flex;
