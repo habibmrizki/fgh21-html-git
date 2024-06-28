@@ -26,33 +26,33 @@ const events = [
   {
     title: "Movie Vector",
     date: "Fri, 12 Jan, 7:00 PM",
-    image: "img/picture-event2.png",
+    image: "assets/img/picture-event2.png",
   },
 
   {
     title: "Let's Play Skater",
     date: "Sun, 1 Aug, 3:00 PM",
-    image: "img/picture-event3.jpg",
+    image: "assets/img/picture-event3.jpg",
   },
   {
     title: "Macth MU vs Arsenal",
     date: "Mon, 15 Nov, 6:00 PM",
-    image: "img/picture-event4.jpg",
+    image: "assets/img/picture-event4.jpg",
   },
   {
     title: "Meeting Sribu",
     date: "Wed, 26Ap, 9:00 AM",
-    image: "img/picture-event6.jpg",
+    image: "assets/img/picture-event6.jpg",
   },
   {
     title: "Class Cooking",
     date: "Sat, 20 March, 12:00 PM",
-    image: "img/picture-event5.jpg",
+    image: "assets/img/picture-event5.jpg",
   },
   {
     title: "Party Color Fun",
     date: "Sat, 3 Oct, 8:00 AM",
-    image: "img/picture-event7.jpg",
+    image: "assets/img/picture-event7.jpg",
   },
 ];
 
@@ -86,10 +86,10 @@ events.forEach((detail) => {
   attende.classList.add("attende");
 
   const attendantPic = [
-    "img/people1.png",
-    "img/people2.png",
-    "img/people3.png",
-    "img/people4.png",
+    "assets/img/people1.png",
+    "assets/img/people2.png",
+    "assets/img/people3.png",
+    "assets/img/people4.png",
   ];
 
   attendantPic.forEach((link) => {
