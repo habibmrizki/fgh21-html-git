@@ -150,132 +150,233 @@ a.navbar-brand {
 
 /* NAVBAR END */
 
-.padding-booking {
+/* tikets start */
+
+.content-booking {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 50px;
+  width: auto;
+  height: 100%;
+  border-radius: 30px;
   display: flex;
-  flex-direction: row;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* tikets start */
-.bg-booking {
-  margin-top: 200px !important;
-  background-color: #ffffff;
-  padding: 140px 120px;
-  border-radius: 20px;
+.pic-seat2 {
+  display: none;
+}
+
+.pic-seat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.pic-seat img {
+  width: 500px;
+  height: 409.5px;
+}
+
+.list-title-booking {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-right: 50px;
   width: 100%;
   height: 100%;
 }
 
-.right {
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section,
+.text-quantity {
+  font-weight: 600;
+}
+
+.title-ticket {
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+}
+
+.title-price {
+  display: flex;
+  align-items: center;
+  color: #fc1055;
+  font-size: 12px;
+  gap: 15px;
+}
+
+.sorting {
+  background-color: #fff;
+  box-shadow: 0px 8px 15px #1a3c4414;
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.all-seats {
   display: flex;
   flex-direction: column;
-  gap: 25px;
-}
-.heading {
-  margin-bottom: 50px;
-}
-.heading {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-
-.heading .headingtext {
-  font-size: 20px;
-}
-
-.available1 {
-  text-align: end;
-}
-
-.shorting {
-  display: flex;
-}
-
-.shorting p {
-  color: red;
-  font-size: 10px;
-  margin: 5px;
-}
-
-.shorting img {
-  margin-top: -10px;
-  width: 50px;
-}
-
-/* tiket end */
-
-/* section1 start */
-.emot1purple {
-  display: flex;
+  gap: 50px;
+  margin-top: 70px;
   width: 100%;
-  justify-content: space-between;
 }
 
-.section1,
-.section2,
-.section3 {
+.quantity-price:nth-child(3) {
+  border-bottom: 1px solid #c1c5d040;
+  padding-bottom: 30px;
+}
+
+.quantity-price {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  width: 100%;
+}
+
+.seat-purple {
+  width: 45px;
+  height: 45px;
+  background-color: rgba(241, 234, 255, 1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seat-red {
+  width: 45px;
+  height: 45px;
+  background-color: rgba(255, 234, 239, 1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seat-orange {
+  width: 45px;
+  height: 45px;
+  background-color: rgba(255, 244, 231, 1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity-price img {
+  width: 21.38px;
+  height: 22.5px;
+}
+
+.detail-seat {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.quantity-seat {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.section {
   display: flex;
   justify-content: space-between;
 }
 
-.row1 {
-  margin-left: 20px;
+.price {
+  margin-right: 20px;
 }
 
-.row1 h3 {
-  margin-top: 15px;
-}
-
-.operator {
+.seats {
   display: flex;
-  margin-top: 25px;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #bdc0c4;
 }
 
-.operators {
-  border: 1px solid gray;
-  padding: 2px 5px;
+.detail-button-quantity {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  font-size: 12px;
+}
+
+.detail-button-quantity div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #373a42;
+}
+
+.text-button button {
+  color: #c1c5d0;
+}
+
+.detail-button-quantity button {
+  width: 30px;
+  height: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #fff;
   border-radius: 5px;
 }
 
-.operator p {
-  margin: 10px;
-}
-/* ticket end */
-
-/* shorting */
-.section1 .emot1 img {
-  width: 45px;
-  height: 45px;
+.text-button:nth-child(2) {
+  font-weight: 600;
 }
 
-/* line */
-.line img {
+.list-checkout {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  gap: 15px;
+}
+
+.ticket {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.ticket :last-child {
+  color: #3366ff;
+}
+
+.button-checkout {
+  display: flex;
   width: 100%;
 }
 
-/* Total */
-.total,
-.ticketdetail {
-  display: flex;
-  justify-content: space-between;
-}
-
-.text2 p {
-  color: #2e5de8;
-}
-
-/* Button */
-.checkout button {
+.button-checkout button {
+  background-color: #3366ff;
+  box-shadow: 0px 8px 10px #2395ff4d;
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 50px;
   width: 315px;
   height: 55px;
-  color: #ffffff;
-  font-size: 20px;
-  background-color: #2e5de8;
-  border-radius: 20px;
-  margin-top: 3rem;
-  margin-bottom: 10rem;
+  border-radius: 15px;
 }
-
 /* PAYMENT START*/
 .bg {
   margin-top: 200px !important;
