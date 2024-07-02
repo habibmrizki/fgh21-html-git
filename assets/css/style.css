@@ -1675,3 +1675,92 @@ button.button-event {
     flex-wrap: wrap;
   }
 }
+
+/* sign-in */
+.auth-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-container {
+  background-color: #3366ff;
+  flex: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-container {
+  flex: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  max-width: 315px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form .input-wrapper-sign-in {
+  display: flex;
+  border: 1px solid #c1c5d0;
+  height: 55px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.input-wrapper-sign-in button {
+  background-color: transparent;
+  width: 55px;
+}
+
+form .input-wrapper-sign-in input {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0px 25px;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+
+.button-sign-in {
+  background-color: #3366ff;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  width: 100%;
+  height: 55px;
+}
+.text-forgot {
+  color: #3366ff;
+  font-size: 14px;
+  text-align: end;
+}
+
+.or-sign {
+  text-align: center;
+  color: #373a42;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+
+.logo-alt {
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logo-alt button {
+  border: 1px solid #3366ff;
+  border-radius: 6px;
+  background-color: #fff;
+  width: 95px;
+  height: 55px;
+}
