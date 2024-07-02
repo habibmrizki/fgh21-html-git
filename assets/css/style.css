@@ -1540,6 +1540,14 @@ button.button-event {
     gap: 50px;
   }
 
+  .various-category {
+    overflow-x: scroll;
+  }
+
+  .parent-category {
+    overflow-x: scroll;
+  }
+
   /* Booking */
   /* booking */
   .content-booking {
