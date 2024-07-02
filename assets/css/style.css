@@ -1344,7 +1344,7 @@ button.button-event {
 
 /* Media Querie */
 /* Mobile Phone */
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   html {
     font-size: 75%;
   }
@@ -1448,6 +1448,10 @@ button.button-event {
   }
   .border-right {
     display: none;
+  }
+
+  .bg-booking {
+    width: 100%;
   }
   /* Profile */
 
