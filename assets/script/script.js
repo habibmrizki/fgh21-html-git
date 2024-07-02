@@ -113,3 +113,8 @@ const btnToLogin = document.getElementById("to-login");
 btnToLogin.onclick = () => {
   window.location = "/user-authentication.html";
 };
+
+const btnTosignup = document.getElementById("to-signup");
+btnTosignup.onclick = () => {
+  window.location = "/user-authentication.html";
+};
