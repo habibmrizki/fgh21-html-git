@@ -589,10 +589,8 @@ a.navbar-brand {
 
 .navigation-side-content {
   display: flex;
-}
-
-.name-profile4 p {
-  margin-left: 20px;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .name-profile8 {
