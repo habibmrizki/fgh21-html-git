@@ -1253,6 +1253,12 @@ button.button-event {
   font-weight: 500;
 }
 
+.heading-category {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
 /* sponsor */
 .bg-sponsor {
   background-color: rgb(45, 44, 44);
