@@ -108,3 +108,13 @@ events.forEach((detail) => {
 
   listEvent.appendChild(contentEventIndex);
 });
+
+const btnToLogin = document.getElementById("to-login");
+btnToLogin.onclick = () => {
+  window.location = "/sign-in.html";
+};
+
+const btnTosignup = document.getElementById("to-signup");
+btnTosignup.onclick = () => {
+  window.location = "/sign-up.html";
+};
