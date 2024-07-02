@@ -23,7 +23,7 @@
         <img src="assets/img/logo-user-authentication.png" alt="" />
       </div>
       <div class="right-container">
-        <form>
+        <form onsubmit="checkSignUp(event)">
           <div class="logo">
             <img src="./assets/img/logo-wetick.png" alt="" />
           </div>
@@ -33,17 +33,21 @@
             <a class="login" href="sign-in.html">Log In</a>
           </p>
           <div class="input-wrapper-sign-in">
-            <input type="text" placeholder="Full Name" />
+            <input type="text" placeholder="Full Name" name="name" />
           </div>
           <div class="input-wrapper-sign-in">
-            <input type="email" placeholder="Email" />
+            <input type="email" placeholder="Email" name="email" />
           </div>
           <div class="input-wrapper-sign-in">
-            <input type="password" placeholder="Password" />
+            <input type="password" placeholder="Password" name="password" />
             <button><img src="assets/img/logo-eye.png" alt="" /></button>
           </div>
           <div class="input-wrapper-sign-in">
-            <input type="password" placeholder="Confirm Password" />
+            <input
+              type="password"
+              placeholder="Confirm Password"
+              name="confirmPassword"
+            />
             <button><img src="assets/img/logo-eye.png" alt="" /></button>
           </div>
           <div>
@@ -56,5 +60,22 @@
         </form>
       </div>
     </div>
+    <script>
+      function checkSignUp(event) {
+        event.preventDefault();
+        const name = event.target.name.value;
+        const email = event.target.email.value;
+        const password = event.target.password.value;
+        const confirmPassword = event.target.confirmPassword.value;
+        const terms = event.target.terms.checked;
+        if (password !== confirmPassword) {
+          window.alert("Password not same");
+        } else if (terms == false) {
+          window.alert("You forgot check the terms");
+        } else {
+          window.alert(`Your account register , welcome ${name}`);
+        }
+      }
+    </script>
   </body>
 </html>
