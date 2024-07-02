@@ -1469,6 +1469,14 @@ button.button-event {
     justify-content: center;
   }
 
+  /* sig-in & sign-up*/
+  .auth-container > div:first-child {
+    display: none;
+  }
+  .auth-container > div:last-child {
+    width: 100%;
+  }
+
   /* NAVBAR */
   .button-hamburger-menu {
     display: inline-block;
