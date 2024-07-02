@@ -57,6 +57,9 @@ const events = [
 ];
 
 events.forEach((detail) => {
+  const linkPage = document.createElement("a");
+  linkPage.setAttribute("href", "event.html");
+
   const contentEventIndex = document.createElement("div");
   contentEventIndex.classList.add("content-event-index");
 
@@ -106,7 +109,9 @@ events.forEach((detail) => {
 
   contentEventIndex.appendChild(informationEventIndex);
 
-  listEvent.appendChild(contentEventIndex);
+  linkPage.appendChild(contentEventIndex);
+
+  listEvent.appendChild(linkPage);
 });
 
 const btnToLogin = document.getElementById("to-login");
