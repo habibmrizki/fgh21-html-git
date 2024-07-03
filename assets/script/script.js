@@ -24,6 +24,12 @@ const listEvent = document.getElementById("list-event");
 
 const events = [
   {
+    title: "Sights & Sounds Exhibition",
+    date: "Wed, 15 Nov, 4:00 PM",
+    image: "assets/img/picture-event1.png",
+  },
+
+  {
     title: "Movie Vector",
     date: "Fri, 12 Jan, 7:00 PM",
     image: "assets/img/picture-event2.png",
