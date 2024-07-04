@@ -17,27 +17,32 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <table class="table">
-      <tr>
-        <td class="left-table">
-          <img src="assets/img/logo-user-authentication.png" alt="" />
-        </td>
-        <td class="right-table">
-          <div class="tittle">
-            <img src="assets/img/logo-wetick.png" alt="" class="img-wetick" />
-            <h1>Forgot Password</h1>
-            <p>You'll get mail soon on your email</p>
+    <div class="auth-container">
+      <div class="left-container">
+        <img src="assets/img/logo-user-authentication.png" alt="" />
+      </div>
+      <div class="right-container">
+        <form>
+          <div class="logo">
+            <img src="./assets/img/logo-wetick.png" alt="" />
           </div>
-          <form>
-            <div class="input-wrapper">
-              <label for="email"></label>
-              <input type="text" id="email" placeholder="Email" />
-              <button type="button" class="button" id="sendButton">Send</button>
-            </div>
-          </form>
-        </td>
-      </tr>
-    </table>
+          <h2>Forgot Password</h2>
+          <p>You’ll get mail soon on your email</p>
+          <div class="input-wrapper-sign-in">
+            <input
+              type="email"
+              placeholder="Email"
+              name="email"
+              id="emailInput"
+              required
+            />
+          </div>
+          <div>
+            <button id="sendButton" class="button-sign-in">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
 
     <!-- javascript -->
     <script src="assets/user/script.js"></script>
